@@ -146,30 +146,27 @@ body {
   margin: auto;
   overflow: hidden;
 }
-header {
+.container header {
   background: gray;
   color: white;
   padding-top: 30px;
   min-height: 70px;
   border-bottom: gray 3px solid;
 }
-header a {
+.container header ul {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+}
+.container header a {
   color: white;
   text-decoration: none;
   text-transform: uppercase;
   font-size: 16px;
 }
-header ul {
-  margin: 0;
-  padding: 0;
-}
-header li {
+.container header nav {
   display: flex;
-  justify-content: flex end;
   flex-direction: row;
-}
-header nav {
-  display: flex;
-  justify-content: flex-end;
-  flex-direction: column;
+  margin-top: 10px;
 }
